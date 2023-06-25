@@ -17,7 +17,6 @@ public class GoogleSearchSteps {
     @Given("Browser is open")
     public void browser_is_open() {
         System.out.println("Browser is open");
-        System.setProperty("webdriver.chrome.driver", "src/test/Driver/chromedriver");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);

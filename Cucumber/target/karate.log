@@ -1,0 +1,6 @@
+00:55:27.786 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+00:55:29.225 [main]  ERROR com.intuit.karate - src/test/java/AppFeature/GoogleSearch.feature:3
+Given Browser is open
+no step-definition method match found for: Browser is open
+src/test/java/AppFeature/GoogleSearch.feature:3
+00:55:30.083 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/AppFeature/GoogleSearch.feature
